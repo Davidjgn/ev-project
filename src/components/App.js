@@ -2,8 +2,6 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import Home from './Home';
-import Contact from './Contact';
-import About from './About';
 import Explore from './Explore';
 import Menu from './Menu';
 
@@ -20,8 +18,6 @@ function App() {
         <Route path="/" element={<Menu dotCount={dotCount}/>}>
           <Route index element={<Home dotCount={dotCount} setDotCount={setDotCount}/>} />
           <Route path="explore" element={<Explore />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

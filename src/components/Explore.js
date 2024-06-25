@@ -1,7 +1,11 @@
+import './styling/Explore.css'
+
 function Explore(){
     return(
-        <section>
-            Explore
+        <section className="explore">
+            <h1 className='explore-title'>
+                Explore
+            </h1>
         </section>
     );
 }

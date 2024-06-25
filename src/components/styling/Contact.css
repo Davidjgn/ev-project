@@ -1,0 +1,27 @@
+#contact{
+    background-color: black;
+    & > div{
+        margin: 0 40px;
+    }
+}
+.contact-title{
+    font-size: 60px;
+    color: white;
+    max-width: 500px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    color: white;
+}
+@media only screen and (max-width: 800px){
+    .contact-info{
+        grid-template-columns: auto;
+    }
+}
