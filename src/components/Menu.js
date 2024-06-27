@@ -12,14 +12,16 @@ function Menu({ dotCount }) {
             <section className='nav-bar'>
                 <div className='logo'>
                     <h1>
-                        EV-Company
+                        EV-
+                        <br/>
+                        Catalog
                     </h1>
                 </div>
                 <nav className='nav-links'>
                     <Link to='/'>Home</Link>
                     <Link to='/explore'>Explore</Link>
                     <a href={'/#about'}>About</a>
-                    <a  href={'/#contact'} className='contact'>Contact</a>
+                    <a  href={'/#contact'}>Contact</a>
                 </nav>
                 <div className='nav-drop-down' >
                     <button className='nav-button' onClick={() => setToggle(prev => !prev)}>
@@ -32,7 +34,7 @@ function Menu({ dotCount }) {
                             <Link to='/'>Home</Link>
                             <Link to='/explore'>Explore</Link>
                             <a href={'/#about'}>About</a>
-                            <a  href={'/#contact'} className='contact'>Contact</a>
+                            <a  href={'/#contact'}>Contact</a>
                         </div>
                     )}
                 </div>

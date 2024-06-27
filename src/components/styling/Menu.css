@@ -16,11 +16,6 @@
     flex-grow: 1;
     justify-content: right;
     gap: 20px;
-
-    & .contact {
-        color: rgb(63, 63, 63);
-        background-color: white;
-    }
 }
 
 .nav-links>* {

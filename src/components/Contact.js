@@ -8,8 +8,8 @@ function Contact() {
                     Contact
                 </h1>
                 <div className='contact-info'>
-                    <p>Phone +1 999 999 999</p>
-                    <p>Email davidjgn@hotmail.com</p>
+                    <p>+1 999 999 999</p>
+                    <p>davidjgn@hotmail.com</p>
                     <p>Github</p>
                     <p>LinkedIn</p>
                 </div>

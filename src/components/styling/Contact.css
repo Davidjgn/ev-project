@@ -12,16 +12,20 @@
     margin-bottom: 20px;
 }
 .contact-info{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     color: white;
     font-size: 20px;
+    & p{
+        flex-grow: 1;
+    }
 }
 footer{
     color: white;
 }
 @media only screen and (max-width: 800px){
     .contact-info{
-        grid-template-columns: auto;
+        flex-direction: column;
     }
 }
