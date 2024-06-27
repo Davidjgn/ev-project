@@ -17,8 +17,10 @@
     flex-wrap: wrap;
     color: white;
     font-size: 20px;
-    & p{
+    align-items: center;
+    & > *{
         flex-grow: 1;
+        color: white;
     }
 }
 footer{
