@@ -53,6 +53,7 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
+        overflow: hidden;
         border: 2px solid white;
         & .hamburger-icon{
             width: 30px;
@@ -64,6 +65,7 @@
 .drop-down{
     display: grid;
     grid-template-columns: auto;
+    background-color: rgb(63, 63, 63);
     gap: 2px;
     position: fixed;
     right: 40px;
