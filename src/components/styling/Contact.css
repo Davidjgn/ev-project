@@ -17,8 +17,9 @@
     flex-wrap: wrap;
     color: white;
     font-size: 20px;
-    align-items: center;
     & > *{
+        margin-top: 0;
+        margin-bottom: 10px;
         flex-grow: 1;
         color: white;
     }
